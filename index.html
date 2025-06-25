@@ -11,31 +11,98 @@
 </head>
 
 <body>
-   <header>
-    <section class="logo-container">
-      <a href="index.html"><img src="assets\logo\Booki.png" alt="website logo"></a>
-    </section>
+  <header> <!-- Zone de logo et de navigation -->
+    <!-- Zone de Logo -->
+    <div class="logo-container">
+      <a href="index.html"><img src="assets/logo/Booki.png" alt="Booki logo"></a>
+    </div>
 
-    <section class="navbar-container">
+    <!-- Zone de navigation -->
+    <div class="navbar-container">
       <nav>
+        <!-- Lien vers la page des hébergements -->
         <div class="navbar-link" id="navbar-link-accomodation">
-          <div class="upperline-effect"></div>
           <a href="#hebergements">Hébergements</a>
         </div>
-
+        <!-- Lien vers la page des activités -->
         <div class="navbar-link" id="navbar-link-activities">
-          <div class="upperline-effect"></div>
           <a href="#activities">Activités</a>
         </div>
-
+        <!-- Lien vers la page de connexion -->
         <div class="navbar-link" id="navbar-link-sign-up">
-          <div class="upperline-effect"></div>
           <a href="#">S'inscrire</a>
         </div>
       </nav>
+    </div>
   </header>
 
   <main>
+    <!-- Zone de recherche et filtres -->
+    <!--Titre et sous-titre de la zone de recherche -->
+    <section class="research-section">
+      <div class="research-title">
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+        <p>En plein centre ville ou en pleine nature</p>
+      </div>
+
+      <!-- formulaire de recherche et icone de localisation -->
+      <form action="#" method="get">
+        <div class="icon-map-container">
+          <i class="fa-solid fa-location-dot" id="icone_maps"></i>
+        </div>
+        <input id="city_research" name="city" type="text" placeholder="Marseille, France">
+        <button class="btn_research" type="submit">
+          <span id="search">Rechercher</span>
+          <span id="glass"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </button>
+      </form>
+
+      <!-- Zone de filtres -->
+      <div class="filter-section">
+        <h3>Filtres</h3>
+        <ul class="filter-list">
+          <li>
+            <button class="filter-button" aria-label="Filtrer par hébergements économiques">
+              <i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i>
+              <span>Économique</span>
+            </button>
+          </li>
+          <li>
+            <button class="filter-button" aria-label="Filtrer par hébergements familial">
+              <i class="fa-solid fa-person" aria-hidden="true"></i>
+              <span>Familial</span>
+            </button>
+          </li>
+          <li>
+            <button class="filter-button" aria-label="Filtrer par hébergements romantiques">
+              <i class="fa-solid fa-heart" aria-hidden="true"></i>
+              <span>Romantique</span>
+            </button>
+          </li>
+          <li>
+            <button class="filter-button" aria-label="Filtrer par hébergements avec animaux autorisés">
+              <i class="fa-solid fa-dog" aria-hidden="true"></i>
+              <span>Animaux autorisés</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- petite zone point informations logements -->
+      <div class="info-message">
+        <span id="info_circle"><i class="fa-solid fa-circle-info" aria-hidden="true"></i></span>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
 
 
   </main>
