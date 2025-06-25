@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* GENERAL */
+
+:root {
+--blue: #0065FC;
+--light-blue: #DEEBFF;
+--light-grey: #F2F2F2;
+--dark-grey: #D9D9D9;
+--white: #FFFFFF;
+--black: #000000;
+}
+
+* {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* On applique la police de caractère à tous les éléments */
+body, button, input {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth; /*Effet scroll doux:*/
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* classes pour les différents tailles de la police de caractère */
+.raleway-card-title {
+  font-size: 16px;
+}
+
+.raleway-title-section{
+  font-size: 22px;
+}
+
+.raleway-information {
+  font-size: 16px;
+}
+
