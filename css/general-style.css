@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-/* GENERAL */
+/* ===================== GENERAL ===================== */
 
+/* Styles de base = mobile first */
+
+/* Couleurs principales */
 :root {
 --blue: #0065FC;
 --light-blue: #DEEBFF;
@@ -24,6 +27,7 @@ body {
 
 /* On applique la police de caractère à tous les éléments */
 body, button, input {
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -50,6 +54,5 @@ a {
 
 .raleway-information {
   font-weight: 400;
-  font-size: 16px;
 }
 
