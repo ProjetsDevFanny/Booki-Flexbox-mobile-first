@@ -26,8 +26,6 @@ nav {
 }
 
 .navbar-link {
-  font-size: 16px;
-  font-weight: 500;
   flex: 1; /* 1; pour que chaque lien prenne une part égale de l'espace disponible */
   text-align: center;
 }
@@ -38,10 +36,13 @@ nav a {
   padding: 20px 0;
   display: block; /* pour que l'élément a prenne toute la largeur (disponible) de son parent */
   width: 100%;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 nav a:hover {
   color: var(--blue);
+  font-weight: 520;
 }
 
 nav a::before {

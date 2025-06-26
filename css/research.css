@@ -7,3 +7,104 @@
 }
 
 
+/* formulaire de recherche */
+
+.research-form {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.icon-map-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 49px;
+  border-radius: 15px 0 0 15px; 
+  background-color: var(--light-grey);
+  border: 1px solid var(--light-grey);
+}
+
+#icone-maps {
+  transform: scale(1.1);
+}
+
+#city-research {
+  width: 240px;
+  padding-left: 8px;
+  border-top: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
+  border-left: none;
+  border-right: none;
+  height: 49px;
+  color: var(--black);
+}
+
+#city-research::placeholder {
+  color: var(--black);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.btn-research {
+  width: 48px;
+  height: 49px;
+  border-radius: 0 15px 15px 0;
+  border: 1px solid var(--blue);
+  background-color: var(--blue);
+  color: var(--white) ;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-research:hover {
+  background-color: var(--blue);
+}
+
+#research {
+  display: none;
+}
+
+#glass {
+  display: inline;
+}
+
+/* Section des filtres */
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+ }
+
+ .filter-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: var(--white);
+  border: 2px solid var(--dark-grey);
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.filter-button span {
+   color: var(--black);
+  font-size: 11px;
+ }
+
+ .filter-button i {
+
+ }
+
+ 

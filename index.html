@@ -45,13 +45,13 @@
       </div>
 
       <!-- formulaire de recherche et icone de localisation -->
-      <form action="#" method="get">
+      <form action="submit" method="get" class="research-form">
         <div class="icon-map-container">
-          <i class="fa-solid fa-location-dot" id="icone_maps"></i>
+          <i class="fa-solid fa-location-dot" id="icone-maps"></i>
         </div>
-        <input id="city_research" name="city" type="text" placeholder="Marseille, France">
-        <button class="btn_research" type="submit">
-          <span id="search">Rechercher</span>
+        <input id="city-research" name="city" type="text" placeholder="Marseille, France">
+        <button class="btn-research" type="submit" aria-label="Rechercher une ville">
+          <span id="research">Rechercher</span>
           <span id="glass"><i class="fa-solid fa-magnifying-glass"></i></span>
         </button>
       </form>
