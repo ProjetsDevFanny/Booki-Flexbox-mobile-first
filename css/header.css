@@ -36,7 +36,7 @@ nav a {
   position: relative;
   transition: color 0.3s ease;
   padding: 20px 0;
-  display: block;
+  display: block; /* pour que l'élément a prenne toute la largeur (disponible) de son parent */
   width: 100%;
 }
 
