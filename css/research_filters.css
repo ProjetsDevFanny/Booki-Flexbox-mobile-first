@@ -21,16 +21,16 @@
   justify-content: center;
   width: 48px;
   height: 49px;
-  border-radius: 15px 0 0 15px; 
+  border-radius: 15px 0 0 15px;
   background-color: var(--light-grey);
   border: 1px solid var(--light-grey);
 }
 
 #icone-maps {
-  transform: scale(1.1);
+  font-size: 1.1rem;
 }
 
-#city-research {
+#user-input {
   width: 240px;
   padding-left: 8px;
   border-top: 1px solid var(--light-grey);
@@ -41,7 +41,7 @@
   color: var(--black);
 }
 
-#city-research::placeholder {
+#user-input::placeholder {
   color: var(--black);
   font-weight: 700;
   font-size: 18px;
@@ -53,13 +53,10 @@
   border-radius: 0 15px 15px 0;
   border: 1px solid var(--blue);
   background-color: var(--blue);
-  color: var(--white) ;
+  color: var(--white);
   font-weight: 500;
   cursor: pointer;
-}
-
-.btn-research:hover {
-  background-color: var(--blue);
+  transition: all 0.2s ease;
 }
 
 #research {
@@ -68,6 +65,11 @@
 
 #glass {
   display: inline;
+  transition: all 0.2s ease;
+}
+
+#glass:hover {
+  font-size: 1.2rem;
 }
 
 /* Section des filtres */
@@ -81,14 +83,15 @@
 .filter-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
- }
+  gap: 15px;
+  margin: 10px 0 20px 0;
+}
 
- .filter-button {
+.filter-button {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 6px;
   width: 160px;
   height: 50px;
   border-radius: 25px;
@@ -96,15 +99,28 @@
   border: 2px solid var(--dark-grey);
   cursor: pointer;
   padding-left: 10px;
+  transition: all 0.2s ease;
+}
+
+.filter-button:hover {
+  background-color: var(--light-blue);
+}
+
+.filter-button:active {
+  transform: scale(0.95);
 }
 
 .filter-button span {
-   color: var(--black);
+  color: var(--black);
   font-size: 11px;
- }
+}
 
- .filter-button i {
+#family-icon {
+  margin: 0 3px;
+  font-size: 1.3rem;
+}
 
- }
-
- 
+.filter-button i {
+  font-size: 1.1rem;
+  color: var(--blue);
+}

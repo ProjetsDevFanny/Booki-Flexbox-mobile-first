@@ -7,7 +7,7 @@
   <title>Booki</title>
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/research.css">
+  <link rel="stylesheet" href="css/research_filters.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
@@ -49,7 +49,7 @@
         <div class="icon-map-container">
           <i class="fa-solid fa-location-dot" id="icone-maps"></i>
         </div>
-        <input id="city-research" name="city" type="text" placeholder="Marseille, France">
+        <input id="user-input" name="city" type="text" placeholder="Marseille, France">
         <button class="btn-research" type="submit" aria-label="Rechercher une ville">
           <span id="research">Rechercher</span>
           <span id="glass"><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -67,8 +67,8 @@
             </button>
           </li>
           <li>
-            <button class="filter-button" aria-label="Filtrer par hébergements familial">
-              <i class="fa-solid fa-person" aria-hidden="true"></i>
+            <button class="filter-button filter-family" aria-label="Filtrer par hébergements familial">
+              <i class="fa-solid fa-person" aria-hidden="true" id="family-icon"></i>
               <span>Familial</span>
             </button>
           </li>
