@@ -7,7 +7,8 @@
   <title>Booki</title>
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/research_filters.css">
+  <link rel="stylesheet" href="css/research-filters.css">
+  <link rel="stylesheet" href="css/accommodation-popular.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
@@ -21,7 +22,7 @@
     <!-- Zone de navigation -->
     <nav class="navbar">
       <!-- Lien vers la page des hébergements -->
-      <div class="navbar-link" id="navbar-link-accomodation">
+      <div class="navbar-link" id="navbar-link-accommodation">
         <a href="#hebergements">Hébergements</a>
       </div>
       <!-- Lien vers la page des activités -->
@@ -38,7 +39,7 @@
   <main>
     <!-- Zone de recherche et filtres -->
     <!--Titre et sous-titre de la zone de recherche -->
-    <section class="research-section">
+    <section class="research-filters-section">
       <div class="research-title">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p class="raleway-information">En plein centre ville ou en pleine nature</p>
@@ -95,25 +96,25 @@
     </section>
 
     <!-- Section hébergements trouvés et les plus populaires -->
-    <section class="accomodation-and-popular-section">
+    <section class="accommodation-and-popular-section">
 
       <!-- Zone hébergements trouvés -->
-      <div class="accomodation-container">
+      <div class="accommodation-container">
         <h2 class="raleway-title-section">Hébergements à Marseille</h2>
-        <div class="accomodation-gallery">
+        <div class="accommodation-gallery">
           <div class="accommadation-row">
 
             <!-- Première image des hébergements = Auberge La Cannebière -->
-            <article class="accomodation-card">
+            <article class="accommodation-card">
               <picture>
-                <source srcset="assets/img/accommodations/accomodation-small-webp/auberge_la_cannebiere.webp"
-                  type="image/webp">
-                <img src="assets/img/accommodations/accomodation-small/auberge_la_cannebière.jpg"
-                  alt="Auberge La Cannebière">
+                <source srcset="assets/img/accommodations/accommodation-small-webp/auberge_la_cannebiere.webp"
+                  type="image/webp" loading="lazy">
+                <img src="assets/img/accommodations/accommodation-small/auberge_la_cannebière.jpg"
+                  alt="Auberge La Cannebière" loading="lazy">
               </picture>
-              <div class="accomodation-details">
+              <div class="accommodation-details">
                 <h5 class="card-name raleway-card-title">Auberge La Cannebière</h5>
-                <p class="card-price">Nuit à partir de <strong>25€</strong></p>
+                <p class="card-price">Nuit à partir de 25<strong>€</strong></p>
                 <div class="icone-star">
                   <i class="fa-solid fa-star star-blue"></i>
                   <i class="fa-solid fa-star star-blue"></i>
@@ -125,14 +126,16 @@
             </article>
 
             <!-- Deuxième image des hébergements = Hotel du port -->
-            <article class="accomodation-card">
+            <article class="accommodation-card">
               <picture>
-                <source srcset="assets/img/accommodations/accomodation-small-webp/hotel_du_port.webp" type="image/webp">
-                <img src="assets/img/accommodations/accomodation-small/hotel_du_port.jpg" alt="Hotel du port">
+                <source srcset="assets/img/accommodations/accommodation-small-webp/hotel_du_port.webp" type="image/webp"
+                  loading="lazy">
+                <img src="assets/img/accommodations/accommodation-small/hotel_du_port.jpg" alt="Hotel du port"
+                  loading="lazy">
               </picture>
-              <div class="accomodation-details">
+              <div class="accommodation-details">
                 <h5 class="card-name raleway-card-title">Hôtel du port</h5>
-                <p class="card-price">Nuit à partir de <strong>52€</strong></p>
+                <p class="card-price">Nuit à partir de 52<strong>€</strong></p>
                 <div class="icone-star">
                   <i class="fa-solid fa-star star-blue"></i>
                   <i class="fa-solid fa-star star-blue"></i>
@@ -144,15 +147,16 @@
             </article>
 
             <!-- Troisième image des hébergements = Hotel Les mouettes -->
-            <article class="accomodation-card">
+            <article class="accommodation-card">
               <picture>
-                <source srcset="assets/img/accommodations/accomodation-small-webp/hotel_les_mouettes.webp"
-                  type="image/webp">
-                <img src="assets/img/accommodations/accomodation-small/hotel_les_mouettes.jpg" alt="Hotel Les mouettes">
+                <source srcset="assets/img/accommodations/accommodation-small-webp/hotel_les_mouettes.webp"
+                  type="image/webp" loading="lazy">
+                <img src="assets/img/accommodations/accommodation-small/hotel_les_mouettes.jpg" alt="Hotel Les mouettes"
+                  loading="lazy">
               </picture>
-              <div class="accomodation-details">
+              <div class="accommodation-details">
                 <h5 class="card-name raleway-card-title">Hôtel Les mouettes</h5>
-                <p class="card-price">Nuit à partir de <strong>76€</strong></p>
+                <p class="card-price">Nuit à partir de 76<strong>€</strong></p>
                 <div class="icone-star">
                   <i class="fa-solid fa-star star-blue"></i>
                   <i class="fa-solid fa-star star-blue"></i>
@@ -165,15 +169,16 @@
           </div>
           <div class="accommadation-row">
             <!-- Quatrième image des hébergements = Hotel de la mer -->
-            <article class="accomodation-card">
+            <article class="accommodation-card">
               <picture>
-                <source srcset="assets/img/accommodations/accomodation-small-webp/hotel_de_la_mer.webp"
-                  type="image/webp">
-                <img src="assets/img/accommodations/accomodation-small/hotel_de_la_mer.jpg" alt="Hotel de la mer">
+                <source srcset="assets/img/accommodations/accommodation-small-webp/hotel_de_la_mer.webp"
+                  type="image/webp" loading="lazy">
+                <img src="assets/img/accommodations/accommodation-small/hotel_de_la_mer.jpg" alt="Hotel de la mer"
+                  loading="lazy">
               </picture>
-              <div class="accomodation-details">
+              <div class="accommodation-details">
                 <h5 class="card-name raleway-card-title">Hôtel de la mer</h5>
-                <p class="card-price">Nuit à partir de <strong>46€</strong></p>
+                <p class="card-price">Nuit à partir de 46<strong>€</strong></p>
                 <div class="icone-star">
                   <i class="fa-solid fa-star star-blue"></i>
                   <i class="fa-solid fa-star star-blue"></i>
@@ -185,15 +190,16 @@
             </article>
 
             <!-- Cinquième image des hébergements = Auberge Le Panier -->
-            <article class="accomodation-card">
+            <article class="accommodation-card">
               <picture>
-                <source srcset="assets/img/accommodations/accomodation-small-webp/auberge_le_panier.webp"
-                  type="image/webp">
-                <img src="assets/img/accommodations/accomodation-small/auberge_le_panier.jpg" alt="Auberge Le Panier">
+                <source srcset="assets/img/accommodations/accommodation-small-webp/auberge_le_panier.webp"
+                  type="image/webp" loading="lazy">
+                <img src="assets/img/accommodations/accommodation-small/auberge_le_panier.jpg" alt="Auberge Le Panier"
+                  loading="lazy">
               </picture>
-              <div class="accomodation-details">
+              <div class="accommodation-details">
                 <h5 class="card-name raleway-card-title">Auberge Le Panier</h5>
-                <p class="card-price">Nuit à partir de <strong>23€</strong></p>
+                <p class="card-price">Nuit à partir de 23<strong>€</strong></p>
                 <div class="icone-star">
                   <i class="fa-solid fa-star star-blue"></i>
                   <i class="fa-solid fa-star star-blue"></i>
@@ -205,15 +211,16 @@
             </article>
 
             <!-- Sixième image des hébergements = Hotel chez Amina -->
-            <article class="accomodation-card">
+            <article class="accommodation-card">
               <picture>
-                <source srcset="assets/img/accommodations/accomodation-small-webp/hotel_chez_amina.webp"
-                  type="image/webp">
-                <img src="assets/img/accommodations/accomodation-small/hotel_chez_amina.jpg" alt="Hotel chez Amina">
+                <source srcset="assets/img/accommodations/accommodation-small-webp/hotel_chez_amina.webp"
+                  type="image/webp" loading="lazy">
+                <img src="assets/img/accommodations/accommodation-small/hotel_chez_amina.jpg" alt="Hotel chez Amina"
+                  loading="lazy">
               </picture>
-              <div class="accomodation-details">
+              <div class="accommodation-details">
                 <h5 class="card-name raleway-card-title">Hôtel chez Amina</h5>
-                <p class="card-price">Nuit à partir de <strong>96€</strong></p>
+                <p class="card-price">Nuit à partir de 96<strong>€</strong></p>
                 <div class="icone-star">
                   <i class="fa-solid fa-star star-blue"></i>
                   <i class="fa-solid fa-star star-blue"></i>
@@ -230,20 +237,22 @@
 
       <!-- Zone hébergements les plus populaires -->
       <div class="most-popular-container">
-        <h2 class="raleway-title-section">Hébergements les plus populaires</h2>
+        <h2 class="raleway-title-section">Les plus populaires</h2>
         <div class="most-popular-gallery">
 
           <!-- Première image des hébergements les plus populaires = Hotel le soleil du matin -->
           <article class="most-popular-card">
             <picture>
               <source srcset="assets/img/most-populars/most-populars-small-webp/hotel_le_soleil_du_matin.webp"
-                type="image/webp">
+                type="image/webp" loading="lazy">
               <img src="assets/img/most-populars/most-populars-small-jpg/hotel_le_soleil_du_matin.jpg"
-                alt="Hotel le soleil du matin">
+                alt="Hotel le soleil du matin" loading="lazy">
             </picture>
-            <div class="most-popular-details">
-              <h5 class="card-name raleway-card-title">Hôtel Le soleil du matin</h5>
-              <p class="card-price">Nuit à partir de <strong>128€</strong></p>
+            <div class="most-popular-details-container">
+              <div class="most-popular-details">
+                <h5 class="card-name raleway-card-title">Hôtel Le soleil du matin</h5>
+                <p class="card-price">Nuit à partir de 128<strong>€</strong></p>
+              </div>
               <div class="icone-star">
                 <i class="fa-solid fa-star star-blue"></i>
                 <i class="fa-solid fa-star star-blue"></i>
@@ -252,50 +261,55 @@
                 <i class="fa-solid fa-star star-blue"></i>
               </div>
             </div>
-          </article>
-
-          <!-- Deuxième image des hébergements les plus populaires = Au coeur de l'eau chambres d'hôtes -->
-          <article class="most-popular-card">
-            <picture>
-              <source srcset="assets/img/most-populars/most-populars-small-webp/au_coeur_de_leau_chambres_dhotes.webp"
-                type="image/webp">
-              <img src="assets/img/most-populars/most-populars-small-jpg/au_coeur_de_leau_chambres_dhotes.jpg"
-                alt="Au coeur de l'eau chambres d'hôtes">
-            </picture>
-            <div class="most-popular-details">
-              <h5 class="card-name raleway-card-title">Au coeur de l'eau Chambres d'hôtes</h5>
-              <p class="card-price">Nuit à partir de <strong>71€</strong></p>
-              <div class="icone-star">
-                <i class="fa-solid fa-star star-blue"></i>
-                <i class="fa-solid fa-star star-blue"></i>
-                <i class="fa-solid fa-star star-blue"></i>
-                <i class="fa-solid fa-star star-blue"></i>
-                <i class="fa-solid fa-star star-grey"></i>
-              </div>
-            </div>
-          </article>
-
-          <!-- Troisième image des hébergements les plus populaires = Hotel tout bleu tout blanc -->
-          <article class="most-popular-card">
-            <picture>
-              <source srcset="assets/img/most-populars/most-populars-small-webp/hotel_tout_bleu_et_blanc.webp"
-                type="image/webp">
-              <img src="assets/img/most-populars/most-populars-small-jpg/hotel_tout_bleu_et_blanc.jpg"
-                alt="Hotel tout bleu et blanc">
-            </picture>
-            <div class="most-popular-details">
-              <h5 class="card-name raleway-card-title">Hôtel Tout bleu et Blanc</h5>
-              <p class="card-price">Nuit à partir de <strong>68€</strong></p>
-              <div class="icone-star">
-                <i class="fa-solid fa-star star-blue"></i>
-                <i class="fa-solid fa-star star-blue"></i>
-                <i class="fa-solid fa-star star-blue"></i>
-                <i class="fa-solid fa-star star-blue"></i>
-                <i class="fa-solid fa-star star-grey"></i>
-              </div>
-            </div>
-          </article>
         </div>
+        </article>
+
+        <!-- Deuxième image des hébergements les plus populaires = Au coeur de l'eau chambres d'hôtes -->
+        <article class="most-popular-card">
+          <picture>
+            <source srcset="assets/img/most-populars/most-populars-small-webp/chambres_dhotes_au_coeur_de_leau.webp"
+              type="image/webp" loading="lazy">
+            <img src="assets/img/most-populars/most-populars-small-jpg/chambres_dhotes_au_coeur_de_leau.jpg"
+              alt="Chambres d'hôtes Au coeur de l'eau" loading="lazy">
+          </picture>
+          <div class="most-popular-details-container">
+            <div class="most-popular-details">
+              <h5 class="card-name raleway-card-title">Chambres d'hôtes Au coeur de l'eau </h5>
+              <p class="card-price">Nuit à partir de 71<strong>€</strong></p>
+            </div>
+            <div class="icone-star">
+              <i class="fa-solid fa-star star-blue"></i>
+              <i class="fa-solid fa-star star-blue"></i>
+              <i class="fa-solid fa-star star-blue"></i>
+              <i class="fa-solid fa-star star-blue"></i>
+              <i class="fa-solid fa-star star-grey"></i>
+            </div>
+          </div>
+        </article>
+
+        <!-- Troisième image des hébergements les plus populaires = Hotel Bleu et Blanc -->
+        <article class="most-popular-card">
+          <picture>
+            <source srcset="assets/img/most-populars/most-populars-small-webp/hotel_bleu_et_blanc.webp"
+              type="image/webp" loading="lazy">
+            <img src="assets/img/most-populars/most-populars-small-jpg/hotel_bleu_et_blanc.jpg"
+              alt="Hotel bleu et blanc" loading="lazy">
+          </picture>
+          <div class="most-popular-details-container">
+            <div class="most-popular-details">
+              <h5 class="card-name raleway-card-title">Hôtel Bleu et Blanc</h5>
+              <p class="card-price">Nuit à partir de 68<strong>€</strong></p>
+            </div>
+            <div class="icone-star">
+              <i class="fa-solid fa-star star-blue"></i>
+              <i class="fa-solid fa-star star-blue"></i>
+              <i class="fa-solid fa-star star-blue"></i>
+              <i class="fa-solid fa-star star-blue"></i>
+              <i class="fa-solid fa-star star-grey"></i>
+            </div>
+          </div>
+        </article>
+      </div>
       </div>
     </section>
 
@@ -308,8 +322,9 @@
           <!-- Première image des activités = Vieux port -->
           <article class="activity-card">
             <picture>
-              <source srcset="assets/img/activities/activities-small-webp/vieux_port.webp" type="image/webp">
-              <img src="assets/img/activities/activities-small-jpg/vieux_port.jpg" alt="Vieux port">
+              <source srcset="assets/img/activities/activities-small-webp/vieux_port.webp" type="image/webp"
+                loading="lazy">
+              <img src="assets/img/activities/activities-small-jpg/vieux_port.jpg" alt="Vieux port" loading="lazy">
             </picture>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Vieux port</h5>
@@ -322,8 +337,10 @@
           <!-- Deuxième image des activités = Port de Pomègues -->
           <article class="activity-card">
             <picture>
-              <source srcset="assets/img/activities//activities-small-webp/port_de_pomegues.webp" type="image/webp">
-              <img src="assets/img/activities/activities-small-jpg/port_de_pomegues.jpg" alt="Fort de Pomègues">
+              <source srcset="assets/img/activities//activities-small-webp/port_de_pomegues.webp" type="image/webp"
+                loading="lazy">
+              <img src="assets/img/activities/activities-small-jpg/port_de_pomegues.jpg" alt="Fort de Pomègues"
+                loading="lazy">
             </picture>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Port de Pomègues</h5>
@@ -333,8 +350,10 @@
           <!-- Troisième image des activités = Iles du Frioul -->
           <article class="activity-card">
             <picture>
-              <source srcset="assets/img/activities/activities-small-webp/iles_du_frioul.webp" type="image/webp">
-              <img src="assets/img/activities/activities-small-jpg/iles_du_frioul.jpg" alt="Iles du Frioul">
+              <source srcset="assets/img/activities/activities-small-webp/iles_du_frioul.webp" type="image/webp"
+                loading="lazy">
+              <img src="assets/img/activities/activities-small-jpg/iles_du_frioul.jpg" alt="Iles du Frioul"
+                loading="lazy">
             </picture>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Iles du Frioul</h5>
@@ -347,9 +366,9 @@
           <article class="activity-card">
             <picture>
               <source srcset="assets/img/activities/activities-small-webp/parc_national_des_calanques.webp"
-                type="image/webp">
+                type="image/webp" loading="lazy">
               <img src="assets/img/activities/activities-small-jpg/parc_national_des_calanques.jpg"
-                alt="Parc National des Calanques">
+                alt="Parc National des Calanques" loading="lazy">
             </picture>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Parc National des Calanques</h5>
@@ -362,10 +381,10 @@
           <!-- Cinquième image des activités = Notre-Dame-de-la-Garde -->
           <article class="activity-card">
             <picture>
-              <source srcset="assets/img/activities/activities-small-webp/notre_dame_de_la_garde.webp"
-                type="image/webp">
+              <source srcset="assets/img/activities/activities-small-webp/notre_dame_de_la_garde.webp" type="image/webp"
+                loading="lazy">
               <img src="assets/img/activities/activities-small-jpg/notre_dame_de_la_garde.jpg"
-                alt="Notre-Dame-de-la-Garde">
+                alt="Notre-Dame-de-la-Garde" loading="lazy">
             </picture>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Notre-Dame-de-la-Garde</h5>
@@ -375,8 +394,10 @@
           <!-- Sixième image des activités = Parc Longchamp -->
           <article class="activity-card">
             <picture>
-              <source srcset="assets/img/activities/activities-small-webp/parc_longchamp.webp" type="image/webp">
-              <img src="assets/img/activities/activities-small-jpg/parc_longchamp.jpg" alt="Parc Longchamp">
+              <source srcset="assets/img/activities/activities-small-webp/parc_longchamp.webp" type="image/webp"
+                loading="lazy">
+              <img src="assets/img/activities/activities-small-jpg/parc_longchamp.jpg" alt="Parc Longchamp"
+                loading="lazy">
             </picture>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Parc Longchamp</h5>
@@ -397,7 +418,7 @@
           <li>Données et confidentialité</li>
         </ul>
       </div>
-      <div class="our-accomodations">
+      <div class="our-accommodations">
         <h4>Nos hébergements</h4>
         <ul>
           <li>Charte de qualité</li>
