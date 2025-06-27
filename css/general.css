@@ -44,16 +44,19 @@ a {
   color: var(--black);
 }
 
-/* classes pour les différents tailles de la police de caractère */
+/* classes pour les différents tailles de la police de caractère (mobile first) */
 .raleway-card-title {
-  font-size: 16px;
+  font-style: 14px;
+  /* font-size: 16px; : desktop*/
 }
 
 .raleway-title-section{
-  font-size: 22px;
+  font-size: 19px;
+  /* font-size: 22px; : desktop */
 }
 
 .raleway-information {
+  font-size: 14px;
   font-weight: 400;
 }
 
