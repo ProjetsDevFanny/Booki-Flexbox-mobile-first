@@ -8,37 +8,22 @@
 }
 
 
-/* Boîtes "hébergements" englobant les images hébergements avec leurs détails */
-
-.accommodation-card {
-  background-color: white;
-  border: 3px solid white;
-  border-radius: 15px 15px 15px 15px; 
-  box-shadow: 0px 0px 7px 3px #a09e9e;
-  margin: 15px;
-  transition: all 0.3s ease-in-out;
-}
-
-.accommodation-card:hover { 
-  transform:scale(1.1);
-  box-shadow: 0px 0px 9px 5px #a09e9e;
-}
-
-  .accommodation-card picture img{
-  object-fit: cover;
-  height: 110px;
-  width: 200px;
-  border-radius: 13px 13px 0px 0px; 
-}
-
-
 /* Les plus populaires */
 
 .most-popular-container {
   background-color: var(--light-grey);
+  padding: 30px 0px;
 }
 
+.most-popular-container h2 {
+  margin-bottom: 30px;
+}
 
+.most-popular-container i {
+  transform: translateX(100px);
+  color: var(--blue);
+  font-size: 15px;
+}
 
 .most-popular-card {
   display: flex;
@@ -89,15 +74,45 @@
 
 .icone-star i {
   font-size: 12px;
+  color: var(--dark-grey); /* Par défaut, les étoiles sont grises */
 }
 
-.icone-star .star-blue {
+/* La notation en étoiles */
+
+.rating-1 i:nth-child(-n+1), 
+/* La 1ère étoile est bleue */
+.rating-2 i:nth-child(-n+2),
+/* Les 2 premières étoiles sont bleues */
+.rating-3 i:nth-child(-n+3),
+/* Les 3 premières étoiles sont bleues */
+.rating-4 i:nth-child(-n+4),
+/* Les 4 premières étoiles sont bleues */
+.rating-5 i:nth-child(-n+5) {
+/* Les 5 étoiles sont bleues */
   color: var(--blue);
 }
 
-.icone-star .star-grey {
-  color: var(--dark-grey);
-}
 
-
-
+ 
+  
+  /* Boîtes "hébergements" englobant les images hébergements avec leurs détails */
+  
+  .accommodation-card {
+    border: 3px solid var(--white);
+    border-radius: 15px 15px 15px 15px; 
+    box-shadow: 0px 0px 7px 3px #a09e9e;
+    margin: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .accommodation-card:hover { 
+    transform:scale(1.1);
+    box-shadow: 0px 0px 9px 5px #a09e9e;
+  }
+  
+    .accommodation-card picture img{
+    object-fit: cover;
+    height: 110px;
+    width: 200px;
+    border-radius: 13px 13px 0px 0px; 
+  }
