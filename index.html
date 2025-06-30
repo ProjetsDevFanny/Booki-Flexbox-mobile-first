@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/research-filters.css">
   <link rel="stylesheet" href="css/accommodation-popular.css">
+  <link rel="stylesheet" href="css/activities.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
@@ -385,12 +386,14 @@
         <div class="activities-column">
 
           <!-- Première image des activités = Vieux port -->
-          <article class="activity-card">
-            <picture>
-              <source srcset="assets/img/activities/activities-small-webp/vieux_port.webp" type="image/webp"
-                loading="lazy">
-              <img src="assets/img/activities/activities-small-jpg/vieux_port.jpg" alt="Vieux port" loading="lazy">
-            </picture>
+          <article class="activity-card card">
+            <div class="image-wrapper">
+              <picture>
+                <source srcset="assets/img/activities/activities-small-webp/vieux_port.webp" type="image/webp"
+                  loading="lazy">
+                <img src="assets/img/activities/activities-small-jpg/vieux_port.jpg" alt="Vieux port" loading="lazy">
+              </picture>
+            </div>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Vieux port</h5>
             </div>
@@ -400,26 +403,30 @@
         <div class="activities-column">
 
           <!-- Deuxième image des activités = Port de Pomègues -->
-          <article class="activity-card">
-            <picture>
-              <source srcset="assets/img/activities//activities-small-webp/port_de_pomegues.webp" type="image/webp"
-                loading="lazy">
-              <img src="assets/img/activities/activities-small-jpg/port_de_pomegues.jpg" alt="Fort de Pomègues"
-                loading="lazy">
-            </picture>
+          <article class="activity-card card">
+            <div class="image-wrapper">
+              <picture id="pomegues">
+                <source srcset="assets/img/activities//activities-small-webp/port_de_pomegues.webp" type="image/webp"
+                  loading="lazy">
+                <img src="assets/img/activities/activities-small-jpg/port_de_pomegues.jpg" alt="Fort de Pomègues"
+                  loading="lazy">
+              </picture>
+            </div>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Port de Pomègues</h5>
             </div>
           </article>
 
           <!-- Troisième image des activités = Iles du Frioul -->
-          <article class="activity-card">
-            <picture>
-              <source srcset="assets/img/activities/activities-small-webp/iles_du_frioul.webp" type="image/webp"
-                loading="lazy">
-              <img src="assets/img/activities/activities-small-jpg/iles_du_frioul.jpg" alt="Iles du Frioul"
-                loading="lazy">
-            </picture>
+          <article class="activity-card card display-none">
+            <div class="image-wrapper">
+              <picture>
+                <source srcset="assets/img/activities/activities-small-webp/iles_du_frioul.webp" type="image/webp"
+                  loading="lazy">
+                <img src="assets/img/activities/activities-small-jpg/iles_du_frioul.jpg" alt="Iles du Frioul"
+                  loading="lazy">
+              </picture>
+            </div>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Iles du Frioul</h5>
             </div>
@@ -428,13 +435,15 @@
 
         <div class="activities-column">
           <!-- Quatrième image des activités = Parc National des Calanques -->
-          <article class="activity-card">
-            <picture>
-              <source srcset="assets/img/activities/activities-small-webp/parc_national_des_calanques.webp"
-                type="image/webp" loading="lazy">
-              <img src="assets/img/activities/activities-small-jpg/parc_national_des_calanques.jpg"
-                alt="Parc National des Calanques" loading="lazy">
-            </picture>
+          <article class="activity-card card">
+            <div class="image-wrapper">
+              <picture id="calanques">
+                <source srcset="assets/img/activities/activities-small-webp/parc_national_des_calanques.webp"
+                  type="image/webp" loading="lazy">
+                <img src="assets/img/activities/activities-small-jpg/parc_national_des_calanques.jpg"
+                  alt="Parc National des Calanques" loading="lazy">
+              </picture>
+            </div>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Parc National des Calanques</h5>
             </div>
@@ -444,26 +453,30 @@
         <div class="activities-column">
 
           <!-- Cinquième image des activités = Notre-Dame-de-la-Garde -->
-          <article class="activity-card">
-            <picture>
-              <source srcset="assets/img/activities/activities-small-webp/notre_dame_de_la_garde.webp" type="image/webp"
-                loading="lazy">
-              <img src="assets/img/activities/activities-small-jpg/notre_dame_de_la_garde.jpg"
-                alt="Notre-Dame-de-la-Garde" loading="lazy">
-            </picture>
+          <article class="activity-card card">
+            <div class="image-wrapper">
+              <picture>
+                <source srcset="assets/img/activities/activities-small-webp/notre_dame_de_la_garde.webp"
+                  type="image/webp" loading="lazy">
+                <img src="assets/img/activities/activities-small-jpg/notre_dame_de_la_garde.jpg"
+                  alt="Notre-Dame-de-la-Garde" loading="lazy">
+              </picture>
+            </div>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Notre-Dame-de-la-Garde</h5>
             </div>
           </article>
 
           <!-- Sixième image des activités = Parc Longchamp -->
-          <article class="activity-card">
-            <picture>
-              <source srcset="assets/img/activities/activities-small-webp/parc_longchamp.webp" type="image/webp"
-                loading="lazy">
-              <img src="assets/img/activities/activities-small-jpg/parc_longchamp.jpg" alt="Parc Longchamp"
-                loading="lazy">
-            </picture>
+          <article class="activity-card card display-none">
+            <div class="image-wrapper">
+              <picture>
+                <source srcset="assets/img/activities/activities-small-webp/parc_longchamp.webp" type="image/webp"
+                  loading="lazy">
+                <img src="assets/img/activities/activities-small-jpg/parc_longchamp.jpg" alt="Parc Longchamp"
+                  loading="lazy">
+              </picture>
+            </div>
             <div class="activity-details">
               <h5 class="card-name raleway-card-title">Parc Longchamp</h5>
             </div>

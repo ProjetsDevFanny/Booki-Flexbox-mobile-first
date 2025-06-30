@@ -47,6 +47,7 @@
 
 .card picture img {
   object-fit: cover;
+  display: block; /* pas d'espace parasite en dessous, et remplir parfaitement son espace. */
 }
 
 .most-popular-card picture img {
