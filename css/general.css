@@ -30,7 +30,7 @@ body {
 body, button, input {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; = pour optimiser la lisibilité des caractères , mais moderne et non encore acceptée par Validator W3*/
   font-weight: 700;
   font-style: normal;
 }

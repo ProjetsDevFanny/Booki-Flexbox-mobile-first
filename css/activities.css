@@ -7,6 +7,10 @@
   width: 40%;
 }
 
+.activities-gallery :nth-child(1) {
+  margin-top: 0px;
+}
+
 .display-none {
   display: none;
 }
