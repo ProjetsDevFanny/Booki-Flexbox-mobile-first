@@ -1,0 +1,87 @@
+
+/* ============ tablette ============ */
+
+/* Tablettes */
+@media (min-width: 768px) {
+  body {
+    margin: 0px 40px;
+  }
+
+  /* ============ header ============ */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  nav a {
+    padding: 30px 30px;
+  }
+
+  nav a:hover {
+    font-weight: 450;
+  }
+
+  nav a::before {
+    top: 0px;
+  }
+
+  /* ============ main / research and filters ============ */
+
+  /* ============ research ============ */
+
+
+  .btn-research {
+    width: 132px;
+    height: 49px;
+  }
+
+  .btn-research:hover {
+  background-color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+  }
+
+  #research {
+    display: inline;
+    transition: all 0.3s ease;
+  }
+  
+  #glass {
+    display: none;
+  }
+
+  /* ============ filters ============ */
+
+  .filter-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .filter-list {
+    /* flex-wrap: nowrap; */
+    margin: 0;
+  }
+
+  .filter-button {
+    padding: 0em 0.9em;
+    height: 40px;  /* Peut-être ne pas modifier la hauteur du bouton */   
+    width: auto;
+  }
+
+  .filter-button span {
+    font-size: 12px;
+  }
+
+
+
+
+}
