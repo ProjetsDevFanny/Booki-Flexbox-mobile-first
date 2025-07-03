@@ -81,7 +81,97 @@
     font-size: 12px;
   }
 
+  /* ============ accomodations and populars ============ */
+
+  .accommodation-and-popular-section{
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .accommodation-container {
+    padding: 20px;
+    background-color: var(--light-grey);
+    border-radius: 20px;
+}
+
+.accommodation-gallery, .accommodation-details-container {
+  line-height: 1;
+
+}
+
+.accommodation-container h2 {
+  margin-bottom: 20px;
+}
+
+  .accommodation-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .accommodation-card {
+    flex: 1 1 30%;
+    margin: 0;
+    margin: 10px;
+  }
+
+  .accommodation-details-container {
+    padding: 7px;
+  }
+
+  .display-more {
+    display: inline-block;
+    padding: 20px 0px 20px 10px;
+  }
+  
+
+  .most-popular-container {
+    padding: 20px;
+    background-color: var(--light-grey);
+    border-radius: 20px;
+  }
+
+  .most-popular-container h2 {
+    margin: 0 0 20px 0;
+}
+
+.most-popular-gallery {
+  flex-direction: row;
+  /* pour contraindre la largeur de la galerie :*/
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden; /* pour éviter que les cartes se chevauchent : */
+  gap: 20px;
+}
+
+.most-popular-card {
+  flex: 1 1 30%;
+  min-width: 0;
+  max-width: calc(33.33% - 14px); /* pour s'assurer qu'elles ne dépassent pas 1/3 de la largeur moins l'espacement : */
+  overflow: hidden;
+}
+
+.most-popular-card picture img {
+  width: 100px;  /* largeur fixe de l'image : */
+  min-width: 100px; /* Empêche l'image de se rétrécir en dessous de 100px */
+  flex-shrink: 0; /* Empêche l'image de se compresser dans le flexbox */
+}
 
 
 
+
+
+.activities-section h2 {
+   width: 100%;
+   padding-bottom: 20px;
+}
+
+.activities-gallery {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.activity-card {
+  flex: 1 1 30%;
+}
 }
