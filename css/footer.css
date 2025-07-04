@@ -1,10 +1,12 @@
-.footer-container {
+footer {
   background-color: var(--light-grey);
+}
+
+.footer-container {
   padding: 40px 30px;
   display: flex;
   flex-direction: column;
   gap: 40px;
-  
  }
 
 .raleway-footer-li {
