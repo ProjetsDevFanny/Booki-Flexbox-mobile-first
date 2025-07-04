@@ -6,7 +6,7 @@
     margin: 0px 40px;
   }
 
-  /* ============ header ============ */
+  /* ============ header = tablette============ */
 
   header {
     display: flex;
@@ -30,9 +30,9 @@
     top: 0px;
   }
 
-  /* ============ main / research and filters ============ */
+  /* ============ main / research and filters = tablette ============ */
 
-  /* ============ research ============ */
+  /* ============ research = tablette ============ */
 
 
   .btn-research {
@@ -54,7 +54,7 @@
     display: none;
   }
 
-  /* ============ filters ============ */
+  /* ============ filters = tablette ============ */
 
   .filter-section {
     display: flex;
@@ -81,7 +81,7 @@
     font-size: 12px;
   }
 
-  /* ============ accomodations and populars ============ */
+  /* ============ accomodations and populars = tablette ============ */
 
   .accommodation-and-popular-section {
     flex-direction: column;
@@ -128,7 +128,7 @@
     padding: 20px 0px 0px 10px;
   }
 
-  /* ============ most popular ============ */
+  /* ============ most popular = tablette ============ */
 
 
   .most-popular-container {
@@ -180,7 +180,7 @@
     gap: 4px;
   }
 
-  /* ============ activities ============ */
+  /* ============ activities = tablette ============ */
 
   .activities-section h2 {
     width: 100%;
@@ -203,7 +203,7 @@
     height: 80%;
   }
 
-  /* ============ footer ============ */
+  /* ============ footer = tablette ============ */
 
   .footer-container {
     flex-direction: row;
@@ -221,9 +221,83 @@
     et on prendre entre les 2 valeurs de gap, selon 11% de la largeur du viewport. */
 
   }
+}
 
+/* ============ desktop ============ */
 
+@media (min-width: 992px) {
 
+  /* ============ research = desktop ============ */
+  .filter-button {
+    padding: 0em 1.5em;
+    height: 50px;
+    gap: 10px;
+   }
 
+   .filter-button span {
+    font-size: 16px;
+   }
 
+   .filter-button i {
+    font-size: 20px;   
+}
+
+/* ============ accomodations and populars = desktop ============ */
+
+.accommodation-and-popular-section {
+  flex-direction: row;
+}
+
+.accommodation-container {
+  width: 70%;
+}
+
+.most-popular-container {
+  width: 30%;
+}
+
+.most-popular-gallery {
+  flex-direction: column;
+  height: 100%;
+}
+
+.most-popular-card {
+  max-height: 140px;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.most-popular-details-container {
+  padding: 7px 15px;
+  justify-content: space-between;
+}
+
+.most-popular-details {
+  gap: 6px;
+}
+
+/* ============ activities = desktop ============ */
+
+.image-wrapper {
+  max-height: calc(100% - 20px);
+}
+
+.activity-details {
+  height: 20px;
+  display: flex;
+  align-items: center;
+ }
+
+.activity-card {
+  height: 400px;
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1038px) {
+
+  .most-popular-container>h2>i {
+      right: -10px;
+  }
 }
